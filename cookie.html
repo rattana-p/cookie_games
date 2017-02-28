@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="cookiescript.js"></script>
+    <style>
+     #cookie {
+       cursor: pointer;
+     }
+      
+     #upgrad_1, #upgrad_2,
+     #upgrad_3, #upgrad_4,
+     #upgrad_5 {
+       width: 300px;
+       height: auto;
+       background-color: lightslategray;
+       color: aliceblue;
+       padding: 2px 5px;
+       cursor: not-allowed;
+       margin-bottom: 5px;
+       font-size: 13px;
+     }
+      
+     #busket{
+       width: 400px;
+       height: 200px;
+       background-color: antiquewhite;
+       color: darkblue;
+       top: 0;
+       left: 250px;
+     }
+      
+     .upgrad_pic_1, .upgrad_cookie  {
+       width: 32px;
+       height: 32px;
+     } 
+     
+   </style>
+  </head>
+  
+  <body>
+    
+    <div id="busket">
+    </div> You have <span id="showcookies"> </span> cookies. <br><br>
+    <img id="cookie" src="cookies.png" style="width:80px"> <br><br>
+    
+    <div id="upgrad_1"> <img class="upgrad_cookie" src="upgrad_1.png"> for 10 cookie (1 extra cookies every 30 cookies) </div> 
+    <div id="upgrad_2"> <img class="upgrad_cookie" src="upgrad_2.png"> for 100 cookie (2 extra cookies every 10 cookies) </div> 
+    <div id="upgrad_3"> <img class="upgrad_cookie" src="upgrad_3.png"> for 250 cookie (3 extra cookies every 10 cookies) </div> 
+    <div id="upgrad_4"><img class="upgrad_cookie" src="upgrad_4.png"> for 1000 cookie (4 extra cookies every 10 cookies) </div>  
+    <div id="upgrad_5"> <img class="upgrad_cookie" src="upgrad_5.png"> for 10000 cookie (5 extra cookies every 10 cookies) </div> 
+
+  </body>
+</html>

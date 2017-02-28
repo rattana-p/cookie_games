@@ -1,0 +1,22 @@
+{
+  "name": "cookie_game",
+  "version": "1.0.0",
+  "description": "rattana cookie game ",
+  "main": "cookiescript.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-install": "^0.6.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rattana",
+  "license": "ISC"
+}
